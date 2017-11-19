@@ -1,0 +1,8 @@
+[
+  { include: ["<bits/unique_ptr.h>", "private", "<memory>", "public"] },
+  { include: ["<bits/shared_ptr.h>", "private", "<memory>", "public"] },
+  { include: ["<bits/std_function.h>", "private", "<functional>", "public"] },
+  { include: ["@<gmock/.*>", "private", "<gmock/gmock.h>", "public"] },
+  { include: ["@<gtest/.*>", "private", "<gtest/gtest.h>", "public"] },
+  { symbol: ["PTHREAD_STACK_MIN", "private", "<climits>", "public"] }
+]

@@ -1,0 +1,10 @@
+Namespace overview 
+------------------
+/**
+ * @namespace fdl
+ * Fidelity framework for multithreading realtime applications.
+ *
+ * @namespace fdl::test
+ * Unit test namespace for fdl.
+ * Each test has a seperate namespaces due to possible overloading of weak symbols in Mock classes.
+ */

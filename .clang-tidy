@@ -1,0 +1,7 @@
+HeaderFilterRegex: '/home/workspace/corelib/.*'
+Checks: '*,-llvm*'
+CheckOptions:
+  - key:             cppcoreguidelines-special-member-functions.AllowSoleDefaultDtor
+    value:           '1'
+  - key:             hicpp-special-member-functions.AllowSoleDefaultDtor
+    value:           '1'

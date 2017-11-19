@@ -1,0 +1,7 @@
+ColumnLimit: 100
+SpacesBeforeTrailingComments: 2
+AccessModifierOffset: -1
+PointerAlignment: Left
+AllowShortFunctionsOnASingleLine: Empty
+AlwaysBreakTemplateDeclarations: true
+IndentCaseLabels: true

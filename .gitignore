@@ -1,1 +1,6 @@
+obj_*/
+build_*/
+install_*/
+doc/html/
 .DS_STORE
+
